@@ -1,6 +1,6 @@
 import datetime
-from Nutritionix.Nutritionix import NutritionixSetup
 import os
+from Nutritionix.Nutritionix import NutritionixSetup
 from Nutritionix.creds import USER_INFO
 from Sheety.sheety_api import SheetyApi
 

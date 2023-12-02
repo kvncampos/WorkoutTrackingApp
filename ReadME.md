@@ -13,6 +13,18 @@ Before using the script, ensure you have the following:
 
 ## Usage
 
+    Pre-RUN:
+        Please Adapt Create /Nutritionix/creds.py
+        Add your info for more accurate results:
+
+            USER_INFO = {
+                "gender": "male",
+                "weight_kg": "75",
+                "height_cm": "172",
+                "age": "29",
+            }
+      
+
     Nutritionix API Setup:
         Run the script.
         When prompted, enter your Nutritionix ID and API Key.
