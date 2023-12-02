@@ -14,16 +14,20 @@ Before using the script, ensure you have the following:
 ## Usage
 
     Pre-RUN:
-        Please Adapt Create /Nutritionix/creds.py
-        Add your info for more accurate results:
+        1. Please Adapt Create /Nutritionix/creds.py
+            Add your info for more accurate results:
 
-            USER_INFO = {
-                "gender": "male",
-                "weight_kg": "75",
-                "height_cm": "172",
-                "age": "29",
-            }
-      
+                USER_INFO = {
+                    "gender": "male",
+                    "weight_kg": "75",
+                    "height_cm": "172",
+                    "age": "29",
+                }
+
+        2. Create a file: Sheety/sheety_creds.py
+            Add your Sheety API Key, Be sure to enable GET, PUT, POST, DELETE
+                SHEETY_API_KEY = "API_KEY"
+
 
     Nutritionix API Setup:
         Run the script.
